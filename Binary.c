@@ -1,3 +1,5 @@
+// Binary Search
+
 // Include the standard input/output library
 #include <stdio.h>
 
