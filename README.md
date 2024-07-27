@@ -2,8 +2,8 @@
 
 The source code for various data structure program using  will be upload here
 
-1 Linear Search.<html>
+<html>
 <body>
-  <a href="https://github.com/Adhil-Bin-Nadeer/Data-Structure-Using-C/blob/main/Linear.c"  >
+  <a href="https://github.com/Adhil-Bin-Nadeer/Data-Structure-Using-C/blob/main/Linear.c">1. Linear Search</a>
 </body>
 </html>
