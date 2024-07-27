@@ -1,3 +1,3 @@
 # Data-Structure-Using-C
 
-The source code used to study data structure will upload here...
+The source code for various data structure program using  will be upload here
