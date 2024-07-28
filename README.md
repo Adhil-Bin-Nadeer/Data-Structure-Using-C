@@ -1,6 +1,7 @@
 # Data-Structure-Using-C
 
-The source code for various data structure program using C will be upload here..
+The source code for various data structure program using C will be upload here. The proper comments help you to understand the code easily.
+
 
 <html>
 <body>
