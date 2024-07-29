@@ -120,6 +120,7 @@ int main()
         time++;  // Increment time complexity counter
         time++;  // Increment time complexity counter
     }
+     time++;  // Increment time complexity counter
 
     // Check if the element is found
     if (flag == 0) 
@@ -137,6 +138,7 @@ int main()
 
     // Calculate the space complexity
     space = 32 + (4 * n);
+    time++;  // Increment time complexity counter
     time++;  // Increment time complexity counter
     time++;  // Increment time complexity counter
     time++;  // Increment time complexity counter
