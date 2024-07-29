@@ -1,81 +1,58 @@
-// Linear Search Program
+  
+// Linear Search with Time and Space Complexity
 
-// This program includes time complexity and space complexity calculations
 
-#include <stdio.h>
-
+#include<stdio.h>
 int main()
- {
-    // Declare variables
-    int n, i, x, count = 0, time = 2, space;
-
-    // Time complexity: Initialize variable count and time (2 operations)
-    // Space complexity: 24 bytes (6 variables x 4 bytes each)
-
-    // Prompt user for number of elements in the list
-    printf("\nEnter the number of elements in the list: ");
-
-    time++;// Increment time complexity for print operation
-
-    // Get user input for number of elements
-    scanf("%d", &n);
-
-    time++; // Increment time complexity for scanf operation
-
-    // Declare array to store elements
-    int a[n]; 
-
-    // Space complexity: Add 4 bytes for each element in the array
-    space = 24 + (4 * n);
-
-    // Prompt user to enter elements
-    printf("\nEnter the elements:\n");
-
-    time++; // Increment time complexity for print operation
-    time++; // Increment time complexity for newline character
-
-    // Get user input for elements
-    for (i = 0; i < n; i++) {
-        scanf("%d", &a[i]);
-        time++; // Increment time complexity for scanf operation
-        time++; // Increment time complexity for loop iteration
+{
+    int n,i,x,count=0,time=2,space;
+    printf("\nEnter the no of elements in list : ");
+    time++;
+    scanf("%d",&n);
+    time++;
+    int a[n];
+    printf("\n Enter the elements \n");
+    time++;
+    time++;
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+        time++;
+        time++;
     }
-
-    // Prompt user to enter element to search for
-    printf("\nEnter the element to search for: ");
-
-    time++; // Increment time complexity for print operation
-
-    // Get user input for element to search for
-    scanf("%d", &x);
-
-    time++; // Increment time complexity for scanf operation
-
-    // Perform linear search
-    for (i = 0; i < n; i++) {
-        if (a[i] == x) {
+    printf("\nEnter the elements to be searched : ");
+    time++;
+    scanf("%d",&x);
+    time++;
+    for(i=0;i<n;i++)
+    {
+        if(a[i]==x)
+        {
             count++;
-            printf("\nElement %d found at position %d", x, i + 1);
-            time++; // Increment time complexity for print operation
-            time++; // Increment time complexity for loop iteration
+            printf("\n The %d found in the list at %d",x,i+1);
+            time++;
+            time++;
         }
-        time++; // Increment time complexity for loop iteration
-    }
-
-    // Print search results
-    if (count > 0) {
-        printf("\nElement found %d times", count);
-        time++; // Increment time complexity for print operation
-        time++; // Increment time complexity for loop iteration
-    } else {
-        printf("Element not found");
-        time++; // Increment time complexity for print operation
-        time++; // Increment time complexity for loop iteration
-    }
-
-    // Print time and space complexity
-    printf("\nTime complexity: %d", time);
-    printf("\nSpace complexity: %d", space);
-
-    return 0;
+        time++;
+     }
+     if(count>0)
+     {
+          printf("\n the element is found %d times",count);
+          time++;
+          time++;
+     }
+     else
+     {
+           printf("the element is not found");
+           time++;
+           time++;
+     }
+     space=24+(4*n);
+     time++;
+     time++;
+     time++;
+     time++;
+     printf("\n The space of the complexity of the program is %d ",space);
+     printf("\n The time complexity of the program is %d",time);
+     return 0;
 }
