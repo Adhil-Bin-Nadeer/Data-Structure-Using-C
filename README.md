@@ -5,7 +5,8 @@ The source code for various data structure program using C will be upload here. 
 
 <html>
 <body>
-  <a href="https://github.com/Adhil-Bin-Nadeer/Data-Structure-Using-C/blob/main/Linear.c">1. Linear Search</a><br>
-  <a href="https://github.com/Adhil-Bin-Nadeer/Data-Structure-Using-C/blob/main/Binary.c">2.Binary Search</a>
+  <a href="https://github.com/Adhil-Bin-Nadeer/Data-Structure-Using-C/blob/main/Linear.c">1. Linear Search With Time Complexity Using C</a><br>
+  <a href="https://github.com/Adhil-Bin-Nadeer/Data-Structure-Using-C/blob/main/Binary.c">2.Binary Search With Time Complexity Using C</a><br>
 </body>
 </html>
+
