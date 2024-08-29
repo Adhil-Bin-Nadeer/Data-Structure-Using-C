@@ -1,5 +1,5 @@
-  
 // Linear Search with Time and Space Complexity
+//Adhil Bin Nadeer
 
 
 #include<stdio.h>
