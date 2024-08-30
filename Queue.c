@@ -1,3 +1,6 @@
+//Experiment :  Simple Queue Using Function
+//Adhil Bin Nadeer
+
 #include <stdio.h>
 
 void enqueue(int *Q, int *REAR, int size, int *FRONT) {
