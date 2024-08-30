@@ -6,7 +6,7 @@
 void enqueue(int *Q, int *REAR, int size, int *FRONT) {
     int ITEM;
     if (*REAR == size) {
-        printf("\nQueue is full");
+        printf("\n======Queue is full======\n");
     } else {
         if (*REAR == 0 && *FRONT == 0) {
             *FRONT = 1;
@@ -21,7 +21,7 @@ void enqueue(int *Q, int *REAR, int size, int *FRONT) {
 void dequeue(int *Q, int *REAR, int *FRONT) {
     int ITEM;
     if (*FRONT == 0) {
-        printf("\nQueue is empty");
+        printf("\n======Queue is empty=======\n");
     } else {
         ITEM = Q[*FRONT];
         if (*FRONT == *REAR) {
@@ -31,16 +31,16 @@ void dequeue(int *Q, int *REAR, int *FRONT) {
             *FRONT = *FRONT + 1;
         }
         printf("Dequeued item: %d\n", ITEM);
-    }
+    }Ṭ
 }
 
 void displayQueue(int *Q, int REAR, int FRONT) {
     if (FRONT == 0) {
-        printf("\nQueue is empty");
+        printf("\n======Queue is empty=======\n");
     } else {
-        printf("Queue elements: ");
+        printf("\nQueue elements : ");
         for (int i = FRONT; i <= REAR; i++) {
-            printf("%d ", Q[i]);
+            printf("%d \t", Q[i]);
         }
         printf("\n");
     }
@@ -58,7 +58,7 @@ int main() {
         printf("\n2. Dequeue");
         printf("\n3. Display Queue");
         printf("\n4. Exit");
-        printf("Choose the operation to be performed: ");
+        printf("\nChoose the operation to be performed: ");
         scanf("%d", &n);
 
         switch (n) {
