@@ -12,5 +12,6 @@ Welcome to my repository. These are the source code of data structure concept us
  <a href="https://github.com/Adhil-Bin-Nadeer/Data-Structure-Using-C/blob/main/Bubble%20Sort.c">5. Bubble Sort With Time & Space Complexity Using C</a><br>
   <a href="https://github.com/Adhil-Bin-Nadeer/Data-Structure-Using-C/blob/main/SelectionSort.c">5. Selection Sort With Time & Space Complexity Using C</a><br>
  <a href="https://github.com/Adhil-Bin-Nadeer/Data-Structure-Using-C/blob/main/Queue.c">6. Queue Using Function and Pointer</a><br>
+   <a href="https://github.com/Adhil-Bin-Nadeer/Data-Structure-Using-C/blob/main/Stack.c">7. Stack Using Function </a><br>
 </body>
 </html>
