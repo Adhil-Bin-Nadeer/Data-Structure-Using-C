@@ -31,7 +31,7 @@ void dequeue(int *Q, int *REAR, int *FRONT) {
             *FRONT = *FRONT + 1;
         }
         printf("Dequeued item: %d\n", ITEM);
-    }Ṭ
+    }
 }
 
 void displayQueue(int *Q, int REAR, int FRONT) {
