@@ -14,5 +14,8 @@ Welcome to my repository. These are the source code of data structure concept us
  <a href="https://github.com/Adhil-Bin-Nadeer/Data-Structure-Using-C/blob/main/Queue.c">6. Queue Using Function and Pointer</a><br>
   <a href="https://github.com/Adhil-Bin-Nadeer/Data-Structure-Using-C/blob/main/QueueFunction.c">7. Queue Using Function </a><br>
    <a href="https://github.com/Adhil-Bin-Nadeer/Data-Structure-Using-C/blob/main/Stack.c">8. Stack Using Function </a><br>
+     <a href="https://github.com/Adhil-Bin-Nadeer/Data-Structure-Using-C/blob/main/CircularQueue.c">9. Circular Queue Using Function </a><br>
+     <a href="https://github.com/Adhil-Bin-Nadeer/Data-Structure-Using-C/blob/main/InfixToPostifix.c">10. Convert Expression Into Infix to Postfix Using Function </a><br>
+  
 </body>
 </html>
