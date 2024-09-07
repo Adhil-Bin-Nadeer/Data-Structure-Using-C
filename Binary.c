@@ -68,7 +68,7 @@ int main() {
 
     // Perform binary search
     while (left <= right) {
-        mid = (left + right) / 2;  // Calculate the middle index
+        mid = left  + (right - left) / 2;  // Calculate the middle index
         time++;  // Increment time complexity counter
 
         // Check if the element is found
