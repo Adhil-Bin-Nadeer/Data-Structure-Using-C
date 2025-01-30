@@ -17,6 +17,8 @@ Welcome to my repository. These are the source code of data structure concept us
      <a href="https://github.com/Adhil-Bin-Nadeer/Data-Structure-Using-C/blob/main/CircularQueue.c">10. Circular Queue Using Function </a><br>
      <a href="https://github.com/Adhil-Bin-Nadeer/Data-Structure-Using-C/blob/main/InfixToPostifix.c">11. Convert Expression Into Infix to Postfix Using Function </a><br>
     <a href="https://github.com/Adhil-Bin-Nadeer/Data-Structure-Using-C/blob/main/First Come First Scheduling.c">12. First Come First Scheduling Algorithm </a><br>
+     <a href="https://github.com/Adhil-Bin-Nadeer/Data-Structure-Using-C/blob/main/Short Job First.c">13. Short Job First Scheduling Algorithm </a><br>
+      <a href="https://github.com/Adhil-Bin-Nadeer/Data-Structure-Using-C/blob/main/Priority Scheduling.c">14. Priority Scheduling Algorithm </a><br>
   
 </body>
 </html>
